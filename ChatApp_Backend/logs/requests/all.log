@@ -46,3 +46,39 @@ info: ::1 - - [19/Apr/2023:06:49:47 +0000] "GET /ws HTTP/1.1" 404 47 "-" "Mozill
 
 info: ::1 - - [19/Apr/2023:06:58:20 +0000] "GET /ws HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
 
+info: ::1 - - [19/Apr/2023:09:31:56 +0000] "POST /api/v1/users HTTP/1.1" 500 55 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:09:32:02 +0000] "POST /api/v1/users HTTP/1.1" 201 411 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:09:42:29 +0000] "POST /api/v1/users/ HTTP/1.1" 500 59 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [19/Apr/2023:09:42:51 +0000] "POST /api/v1/users/ HTTP/1.1" 500 59 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [19/Apr/2023:09:44:15 +0000] "POST /api/v1/users/ HTTP/1.1" 500 59 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [19/Apr/2023:09:44:35 +0000] "POST /api/v1/users/ HTTP/1.1" 500 59 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [19/Apr/2023:09:46:12 +0000] "POST /api/v1/users/ HTTP/1.1" 500 59 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [19/Apr/2023:09:46:17 +0000] "POST /api/v1/users/ HTTP/1.1" 500 59 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [19/Apr/2023:09:48:22 +0000] "POST /api/v1/users/ HTTP/1.1" 500 59 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [19/Apr/2023:09:49:41 +0000] "POST /api/v1/users/ HTTP/1.1" 500 74 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [19/Apr/2023:09:50:43 +0000] "POST /api/v1/users/ HTTP/1.1" 201 407 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [19/Apr/2023:09:52:17 +0000] "POST /api/v1/users/ HTTP/1.1" 500 74 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [19/Apr/2023:09:54:29 +0000] "POST /api/v1/users/ HTTP/1.1" 500 74 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [19/Apr/2023:10:09:44 +0000] "POST /api/v1/users/ HTTP/1.1" 500 55 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [19/Apr/2023:10:10:00 +0000] "POST /api/v1/users/ HTTP/1.1" 201 417 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [19/Apr/2023:10:16:21 +0000] "POST /api/v1/users/ HTTP/1.1" 201 418 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [19/Apr/2023:10:16:36 +0000] "POST /api/v1/users/ HTTP/1.1" 500 55 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [19/Apr/2023:10:16:55 +0000] "POST /api/v1/users/ HTTP/1.1" 201 419 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+

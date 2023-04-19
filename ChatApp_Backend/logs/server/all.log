@@ -119,3 +119,123 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2023-04-19T06:31:24.010Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:18:49.540Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:18:49.561Z"}
+error: 
+    status - 500 
+    message - Error: User Already Exist..
+    at _callee2$ (C:\Users\Jitendrasatyarathi\Desktop\Chat-App\Chat-App\ChatApp_Backend\src\services\/user.service.js:22:11)
+    at tryCatch (C:\Users\Jitendrasatyarathi\Desktop\Chat-App\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Jitendrasatyarathi\Desktop\Chat-App\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Jitendrasatyarathi\Desktop\Chat-App\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Jitendrasatyarathi\Desktop\Chat-App\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Jitendrasatyarathi\Desktop\Chat-App\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T09:31:56.041Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:35:28.447Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:35:28.477Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:35:45.394Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:35:45.421Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:35:59.147Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:35:59.170Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fullname" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T09:42:29.719Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fullname" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T09:42:51.307Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fullname" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T09:44:15.473Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fullname" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T09:44:35.476Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fullname" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T09:46:12.630Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fullname" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T09:46:17.455Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fullname" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T09:48:22.194Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fullname" is not allowed to be empty 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T09:49:41.356Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fullname" is not allowed to be empty 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T09:52:17.776Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fullname" is not allowed to be empty 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T09:54:29.455Z"}
+error: 
+    status - 500 
+    message - Error: User Already Exist..
+    at _callee2$ (C:\Users\Jitendrasatyarathi\Desktop\Chat-App\Chat-App\ChatApp_Backend\src\services\/user.service.js:23:11)
+    at tryCatch (C:\Users\Jitendrasatyarathi\Desktop\Chat-App\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Jitendrasatyarathi\Desktop\Chat-App\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Jitendrasatyarathi\Desktop\Chat-App\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Jitendrasatyarathi\Desktop\Chat-App\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Jitendrasatyarathi\Desktop\Chat-App\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T10:09:44.000Z"}
+error: 
+    status - 500 
+    message - Error: User Already Exist..
+    at _callee2$ (C:\Users\Jitendrasatyarathi\Desktop\Chat-App\Chat-App\ChatApp_Backend\src\services\/user.service.js:23:11)
+    at tryCatch (C:\Users\Jitendrasatyarathi\Desktop\Chat-App\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Jitendrasatyarathi\Desktop\Chat-App\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Jitendrasatyarathi\Desktop\Chat-App\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Jitendrasatyarathi\Desktop\Chat-App\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Jitendrasatyarathi\Desktop\Chat-App\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T10:16:36.863Z"}
