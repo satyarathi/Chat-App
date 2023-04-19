@@ -94,3 +94,7 @@ error:
    {"timestamp":"2023-04-18T05:05:36.919Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-18T12:48:50.345Z"}
 info: Connected to the database. {"timestamp":"2023-04-18T12:48:50.370Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-19T06:24:43.178Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T06:24:43.201Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-04-19T06:25:45.286Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T06:25:45.303Z"}
