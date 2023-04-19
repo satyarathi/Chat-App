@@ -4,6 +4,10 @@ import Button from "@mui/material/Button";
 
 
 function Login(props) {
+
+    const clickSignup = () => {
+        props.listenToLoginPage();
+    }
   
   return (
     <div className="login-page">
@@ -46,7 +50,7 @@ function Login(props) {
                     value="Login account"
                   />          
               </div>
-              <div className="Login-box"><h4>New to App? <Button>Sign Up</Button> </h4></div>  
+              <div className="Login-box"><h4>New to App? <Button onClick={clickSignup}>Sign Up</Button> </h4></div>  
             </form>
           </div>
         </div>

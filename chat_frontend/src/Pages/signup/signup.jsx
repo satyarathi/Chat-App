@@ -3,11 +3,11 @@ import "./signup.css";
 import Image from "../../image/chat.png";
 import Button from "@mui/material/Button";
 
-const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
-const passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/;
-const nameReg = /^[A-Z]{1}[a-zA-Z]+$/;
-
 function SignUp(props) {
+
+  const clickLogin = () => {
+    props.listenToSignUpPage();
+  };
  
   return (
     <div className="signin-page">
@@ -58,7 +58,7 @@ function SignUp(props) {
                     value="Create account"
                   />   
               </div>
-              <div className="Login-box"><h4>Already have an Account? <Button>Login</Button> </h4></div>
+              <div className="Login-box"><h4>Already have an Account? <Button onClick={clickLogin}>Login</Button> </h4></div>
              
             </form>
           </div>
