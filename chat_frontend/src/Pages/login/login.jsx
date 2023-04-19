@@ -1,16 +1,12 @@
 import React from "react";
-import "./signup.css";
 import Image from "../../image/chat.png";
 import Button from "@mui/material/Button";
 
-const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
-const passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/;
-const nameReg = /^[A-Z]{1}[a-zA-Z]+$/;
 
-function SignUp(props) {
- 
+function Login(props) {
+  
   return (
-    <div className="signin-page">
+    <div className="login-page">
       <div className="container">
         <div
           className="image-box"
@@ -23,16 +19,9 @@ function SignUp(props) {
           <div className="form-section">
             <form action="">
               <div className="text-box">
-              <h3 className="heading1">Create account</h3>
+              <h3 className="heading1">Login</h3>
               </div>
-              <div className="text-box">
-                <input
-                  type="text"
-                  name="name"
-                  className="control"
-                  placeholder="Enter Full Name..."
-                />
-              </div>
+             
               <div class="text-box">
                 <input
                   type="email"
@@ -49,17 +38,15 @@ function SignUp(props) {
                   placeholder="Enter Password..."
                 />
               </div>
-
-              <div className="text-box m20">    
+              <div className="text-box m20">
                   <input
                     type="submit"
                     name="name"
                     className="btn"
-                    value="Create account"
-                  />   
+                    value="Login account"
+                  />          
               </div>
-              <div className="Login-box"><h4>Already have an Account? <Button>Login</Button> </h4></div>
-             
+              <div className="Login-box"><h4>New to App? <Button>Sign Up</Button> </h4></div>  
             </form>
           </div>
         </div>
@@ -68,4 +55,4 @@ function SignUp(props) {
   );
 }
 
-export default SignUp;
+export default Login;
