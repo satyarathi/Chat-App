@@ -145,3 +145,16 @@ error:
    {"timestamp":"2023-04-19T10:16:36.863Z"}
 info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T10:18:01.487Z"}
 info: Connected to the database. {"timestamp":"2023-04-19T10:18:01.519Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Password
+    at _callee3$ (C:\Users\Jitendrasatyarathi\Desktop\Chat-App\Chat-App\ChatApp_Backend\src\services\/user.service.js:46:11)
+    at tryCatch (C:\Users\Jitendrasatyarathi\Desktop\Chat-App\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\Jitendrasatyarathi\Desktop\Chat-App\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\Jitendrasatyarathi\Desktop\Chat-App\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\Jitendrasatyarathi\Desktop\Chat-App\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\Jitendrasatyarathi\Desktop\Chat-App\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T10:32:12.863Z"}
