@@ -3,10 +3,11 @@ import "./signup.css";
 import Image from "../../image/chat.png";
 import Button from "@mui/material/Button";
 import { registerUser } from "../../service/userservice";
+import TextField from '@mui/material/TextField';
 
 const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
-const passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/;
-const nameReg = /^[A-Z]{1}[a-zA-Z]+$/;
+const passwordRegex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/;
+const nameReg = /\b([A-ZÀ-ÿ][-,a-z. ']+[ ]*)+/;
 
 function SignUp(props) {
 
@@ -86,9 +87,7 @@ function SignUp(props) {
       }));
     }
 
-    if (
-      true
-    ) {
+    if (fullNameTest===true && emailTest===true && passwordTest===true) {
       console.log("prepared for backend",signupObj)
       let response = await registerUser(signupObj);
       console.log(response);
@@ -111,33 +110,31 @@ function SignUp(props) {
               <h3 className="heading1">Create account</h3>
               </div>
               <div className="text-box">
-                <input
-                  type="text"
-                  name="name"
+                <TextField id="standard-basic" label="Enter Full Name..." variant="standard"
+                 
+                  
                   className="control"
-                  placeholder="Enter Full Name..."
+                 
                   onChange={takefullName}
                   error={errorObj.fullNameError}
                   helperText={errorObj.fullNameHelper}
                 />
               </div>
               <div className="text-box">
-                <input
-                  type="email"
-                  name="name"
+              <TextField id="standard-basic" label="Enter Email..." variant="standard"
+                 
                   className="control"
-                  placeholder="Enter Email..."
+                 
                   onChange={takeEmail}
                   error={errorObj.emailError}
                   helperText={errorObj.emailHelper}
                 />
               </div>
               <div className="text-box">
-                <input
+              <TextField id="standard-basic" label="Enter Password..." variant="standard"
+
                   type="password"
-                  name="name"
                   className="control"
-                  placeholder="Enter Password..."
                   onChange={takePassword}
                   error={errorObj.passwordError}
                   helperText={errorObj.passwordHelper}
@@ -151,9 +148,10 @@ function SignUp(props) {
                     className="btn"
                     value="Create account"
                     onClick={submit}
+                    style={{cursor:'pointer'}}
                   />   
               </div>
-              <div className="Login-box"><h4>Already have an Account? <Button onClick={clickLogin}>Login</Button> </h4></div>
+              <div className="Login-box"><h4>Already have an Account? <Button onClick={clickLogin} style={{cursor:'pointer'}}>Login</Button> </h4></div>
              
             </form>
           </div>

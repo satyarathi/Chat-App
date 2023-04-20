@@ -2,6 +2,7 @@ import React from "react";
 import Image from "../../image/chat.png";
 import Button from "@mui/material/Button";
 import { loginUser } from "../../service/userservice";
+import TextField from '@mui/material/TextField';
 
 const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
 const passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/;
@@ -93,28 +94,30 @@ function Login(props) {
               </div>
              
               <div class="text-box">
-                <input
+              <TextField id="standard-basic" label="Enter Email..." variant="standard"
+
                   type="email"
-                  name="name"
+               
                   className="control"
-                  placeholder="Enter Email..."
+                  
                   onChange={takeEmail}
                   error={errorObj.emailError}
                   helperText={errorObj.emailHelper}
                 />
               </div>
               <div class="text-box">
-                <input
+              <TextField id="standard-basic" label="Enter Password..." variant="standard"
+
                   type="password"
-                  name="name"
+                 
                   className="control"
-                  placeholder="Enter Password..."
+                  
                   onChange={takePassword}
                   error={errorObj.passwordError}
                   helperText={errorObj.passwordHelper}
                 />
               </div>
-              <div className="text-box m20">
+              <div className="text-box m20" >
                 
                   <input
                     type="submit"
@@ -122,10 +125,11 @@ function Login(props) {
                     className="btn"
                     value="Login account"
                     onClick={submit}
+                    style={{cursor:'pointer'}}
                   />
                 
               </div>
-              <div className="Login-box"><h4>New to App? <Button onClick={clickSignup}>Sign Up</Button> </h4></div>
+              <div className="Login-box"><h4>New to App? <Button onClick={clickSignup} style={{cursor:'pointer'}}>Sign Up</Button> </h4></div>
              
             </form>
           </div>
