@@ -3,8 +3,17 @@ const bcrypt = require('bcrypt');
 import jwt from 'jsonwebtoken';
 
 //get all users
-export const getAllUsers = async () => {
-  const data = await User.find();
+export const getAllUsers = async (req) => {
+  const keyword = req.query.search
+    ? {
+        $or: [
+          { fullname: { $regex: req.query.search, $options: "i" } },
+          { email: { $regex: req.query.search, $options: "i" } },
+        ],
+      }
+    : {};
+
+  const data = await User.find(keyword)
   return data;
 };
 

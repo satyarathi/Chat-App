@@ -126,8 +126,7 @@ function Login(props) {
                     value="Login account"
                     onClick={submit}
                     style={{cursor:'pointer'}}
-                  />
-                
+                  />    
               </div>
               <div className="Login-box"><h4>New to App? <Button onClick={clickSignup} style={{cursor:'pointer'}}>Sign Up</Button> </h4></div>
              
