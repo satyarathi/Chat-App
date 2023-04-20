@@ -1266,3 +1266,497 @@ ReferenceError: req is not defined
     at IncomingMessage.emit (node:domain:489:12)
     at endReadableNT (node:internal/streams/readable:1359:12)
     at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Apr 20 2023 12:09:26 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":181144.734},"process":{"argv":["node","D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\src\\index.js"],"cwd":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19534586,"external":21069361,"heapTotal":101765120,"heapUsed":58722032,"rss":142688256},"pid":19448,"uid":null,"version":"v18.15.0"},"stack":"ReferenceError: req is not defined\n    at _callee$ (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\src\\services\\/user.service.js:7:9)\n    at tryCatch (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at Object.apply (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12)\n    at Object.getAllUsers (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\src\\services\\/user.service.js:6:25)\n    at _callee$ (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\src\\controllers\\/user.controller.js:12:34)\n    at tryCatch (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at apply (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12)\n    at getAllUsers (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\src\\controllers\\/user.controller.js:11:25)\n    at Layer.handle [as handle_request] (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at logger (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\morgan\\index.js:144:5)\n    at Layer.handle [as handle_request] (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\body-parser\\lib\\read.js:137:5\n    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)\n    at invokeCallback (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\raw-body\\index.js:231:16)\n    at done (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\raw-body\\index.js:220:7)\n    at IncomingMessage.onEnd (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\raw-body\\index.js:280:7)\n    at IncomingMessage.emit (node:events:513:28)\n    at IncomingMessage.emit (node:domain:489:12)\n    at endReadableNT (node:internal/streams/readable:1359:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2023-04-20T06:39:26.268Z","trace":[{"column":9,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\src\\services\\/user.service.js","function":"_callee$","line":7,"method":null,"native":false},{"column":17,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":7,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":27,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"Object.apply","line":19,"method":"apply","native":false},{"column":25,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\src\\services\\/user.service.js","function":"Object.getAllUsers","line":6,"method":"getAllUsers","native":false},{"column":34,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\src\\controllers\\/user.controller.js","function":"_callee$","line":12,"method":null,"native":false},{"column":17,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":7,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":27,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"apply","line":19,"method":null,"native":false},{"column":25,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\src\\controllers\\/user.controller.js","function":"getAllUsers","line":11,"method":null,"native":false},{"column":5,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":3,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\route.js","function":"Route.dispatch","line":114,"method":"dispatch","native":false},{"column":5,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":15,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":null,"line":284,"method":null,"native":false},{"column":12,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":3,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"Function.handle","line":175,"method":"handle","native":false},{"column":12,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"router","line":47,"method":null,"native":false},{"column":5,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"trim_prefix","line":328,"method":null,"native":false},{"column":9,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":null,"line":286,"method":null,"native":false},{"column":12,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":3,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"Function.handle","line":175,"method":"handle","native":false},{"column":12,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"router","line":47,"method":null,"native":false},{"column":5,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"trim_prefix","line":328,"method":null,"native":false},{"column":9,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":null,"line":286,"method":null,"native":false},{"column":12,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":5,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\morgan\\index.js","function":"logger","line":144,"method":null,"native":false},{"column":5,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"trim_prefix","line":328,"method":null,"native":false},{"column":9,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":null,"line":286,"method":null,"native":false},{"column":12,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":5,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\body-parser\\lib\\read.js","function":null,"line":137,"method":null,"native":false},{"column":9,"file":"node:async_hooks","function":"AsyncResource.runInAsyncScope","line":204,"method":"runInAsyncScope","native":false},{"column":16,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\raw-body\\index.js","function":"invokeCallback","line":231,"method":null,"native":false},{"column":7,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\raw-body\\index.js","function":"done","line":220,"method":null,"native":false},{"column":7,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\raw-body\\index.js","function":"IncomingMessage.onEnd","line":280,"method":"onEnd","native":false},{"column":28,"file":"node:events","function":"IncomingMessage.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"IncomingMessage.emit","line":489,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"endReadableNT","line":1359,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ReferenceError: fullname is not defined
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/user.service.js:17:17)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.getAllUsers (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/user.service.js:6:25)
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\controllers\/user.controller.js:13:34)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getAllUsers (D:\Chat-bot\Chat-App\ChatApp_Backend\src\controllers\/user.controller.js:11:25)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users?search=z 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-20T06:54:00.217Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/user.service.js:18:67)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.getAllUsers (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/user.service.js:6:25)
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\controllers\/user.controller.js:13:34)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getAllUsers (D:\Chat-bot\Chat-App\ChatApp_Backend\src\controllers\/user.controller.js:11:25)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users?search=zak 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-20T07:12:06.870Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Email
+    at _callee3$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/user.service.js:57:11)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-20T07:45:49.888Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Email
+    at _callee3$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/user.service.js:57:11)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-20T07:46:04.925Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Password
+    at _callee3$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/user.service.js:57:11)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-20T07:46:20.478Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Password
+    at _callee3$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/user.service.js:57:11)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-20T07:46:30.433Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Password
+    at _callee3$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/user.service.js:57:11)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-20T07:46:36.680Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fullname" length must be at least 6 characters long 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-20T07:47:02.175Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/auth.middleware.js:23:28)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users?search=zak 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-20T07:50:58.948Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/auth.middleware.js:23:28)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users?search=zak 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-20T07:54:42.363Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/auth.middleware.js:23:28)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users?search=zak 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-20T07:54:43.824Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/auth.middleware.js:23:28)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users?search=zak 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-20T07:55:34.115Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/auth.middleware.js:23:28)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users?search=zak 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-20T07:55:35.815Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/auth.middleware.js:23:28)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users?search=zak 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-20T07:56:02.697Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/auth.middleware.js:23:28)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users?search=zak 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-20T08:00:39.221Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/auth.middleware.js:23:28)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users?search=zak 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-20T08:01:26.334Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/auth.middleware.js:23:28)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users?search=zak 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-20T08:01:27.938Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/auth.middleware.js:23:28)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users?search=zak 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-20T08:01:45.755Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/auth.middleware.js:23:28)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users?search=zak 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-20T08:05:57.522Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/auth.middleware.js:23:28)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users?search=zak 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-20T08:05:58.975Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/auth.middleware.js:23:28)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users?search=zak 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-20T08:06:30.023Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/auth.middleware.js:23:28)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users?search=zak 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-20T08:06:31.550Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/auth.middleware.js:23:28)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users?search=zak 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-20T08:42:14.255Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/auth.middleware.js:23:28)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users?search=zak 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-20T08:42:15.526Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/auth.middleware.js:23:28)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users?search=zak 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-20T08:44:10.355Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/auth.middleware.js:23:28)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users?search=zak 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-20T08:46:55.037Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/auth.middleware.js:23:28)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users?search=moha 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-20T08:50:27.064Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/auth.middleware.js:23:28)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users?search=moha 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-20T08:51:20.576Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/auth.middleware.js:23:28)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users?search=moha 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-20T08:51:21.998Z"}

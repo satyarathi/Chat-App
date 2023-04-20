@@ -4,6 +4,7 @@ import jwt from 'jsonwebtoken';
 
 //get all users
 export const getAllUsers = async (req) => {
+ 
   const keyword = req.query.search
     ? {
         $or: [
@@ -12,11 +13,12 @@ export const getAllUsers = async (req) => {
         ],
       }
     : {};
-
+    console.log(keyword);
+    console.log(req.query);
   const data = await User.find(keyword)
   return data;
 };
-
+ 
 ///Register new user
 export const userRegister = async (body) => {
   const existingUser = await User.findOne({email : body.email});

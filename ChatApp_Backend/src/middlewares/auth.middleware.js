@@ -20,7 +20,8 @@ export const userAuth = async (req, res, next) => {
     bearerToken = bearerToken.split(' ')[1];
 
     const { user } = await jwt.verify(bearerToken, process.env.JWT_SECRET_KEY);
-    req.body.userId = user.email
+    req.body.userId = user.id
+   
     next();
   } catch (error) {
     next(error);

@@ -8,7 +8,7 @@ import * as UserService from '../services/user.service';
  * @param {object} res - response object
  * @param {Function} next
  */
-export const getAllUsers = (async (req, res, next) => {
+export const getAllUsers = async (req, res, next) => {
   try {
   const data = await UserService.getAllUsers(req);
   // res.send(data);
@@ -20,7 +20,7 @@ export const getAllUsers = (async (req, res, next) => {
 }catch (error){
   next(error);
 }
-});
+};
 /**
  * Controller to create a new user
  * @param  {object} req - request object
