@@ -77,7 +77,7 @@ export const fetchChat = async(req, res) => {
 //@description     Create 
 //@route           Post /api/chat/group
 //@access          Protected
-export const createGroupChat = async(req, res) =>{
+export const createGroupChat = async(req) =>{
   
   if(!req.body.users || !req.body.name){
     throw new error("Fill all the deitails")
@@ -109,4 +109,85 @@ export const createGroupChat = async(req, res) =>{
     throw new Error
   }
 }
+
+// @desc    Rename Group
+// @route   PUT /api/chat/rename
+// @access  Protected
+export const renameGroupChat = async (req) => {
+  const { chatId, chatName } = req.body;
+
+  const updatedChat = await Chat.findByIdAndUpdate(
+    chatId,
+    {
+      chatName: chatName,
+    },
+    {
+      new: true
+    }
+  )
+    .populate("users", "-password")
+    .populate("groupAdmin", "-password");
+
+  if (!updatedChat) {
+    throw new Error("Chat Not Found");
+  } else {
+   return updatedChat;
+  }
+};
   
+
+// @desc    Add user to Group / Leave
+// @route   PUT /api/chat/groupadd
+// @access  Protected
+export const addToGroup = async (req) => {
+  const { chatId, userId } = req.body;
+
+  // check if the requester is admin 
+
+  const addedToGroup = await Chat.findByIdAndUpdate(
+    chatId,
+    {
+      $push: { users: userId },
+    },
+    {
+      new: true,
+    }
+  )
+    .populate("users", "-password")
+    .populate("groupAdmin", "-password");
+
+  if (!addedToGroup) {
+    throw new Error("Chat Not Found");
+  } else {
+   return addedToGroup;
+  }
+};
+
+// @desc    Remove user from Group
+// @route   PUT /api/chat/groupremove
+// @access  Protected
+export const removeFromGroup = async (req) => {
+  
+  const { chatId, userId } = req.body;
+
+  // check if the requester is admin
+
+  const removed =  Chat.findByIdAndUpdate(
+    chatId,
+    {
+      $pull: { users: userId },
+    },
+    {
+      new: true,
+    }
+  )
+    .populate("users", "-password")
+    .populate("groupAdmin", "-password");
+
+  if (!removed) {
+    throw new Error("Chat Not Found");
+  } else {
+    return removed;
+  }
+}
+

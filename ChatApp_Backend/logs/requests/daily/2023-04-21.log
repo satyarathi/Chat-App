@@ -142,3 +142,41 @@ info: ::1 - - [21/Apr/2023:11:11:10 +0000] "POST /api/v1/chat/group HTTP/1.1" 20
 
 info: ::1 - - [21/Apr/2023:11:11:18 +0000] "POST /api/v1/chat/group HTTP/1.1" 201 1346 "-" "PostmanRuntime/7.32.2"
 
+info: ::1 - - [21/Apr/2023:11:12:46 +0000] "POST /api/v1/chat/group HTTP/1.1" 201 1632 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:17:47:51 +0000] "POST /api/v1/chat/group HTTP/1.1" 500 55 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:17:49:25 +0000] "POST /api/v1/chat/group HTTP/1.1" 500 55 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:17:50:46 +0000] "PUT /api/v1/chat/rename HTTP/1.1" 201 1642 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:17:55:33 +0000] "PUT /api/v1/chat/rename HTTP/1.1" 500 87 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:17:55:55 +0000] "PUT /api/v1/chat/rename HTTP/1.1" 201 1643 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:18:11:30 +0000] "PUT /api/v1/chat/addToGroup HTTP/1.1" 201 1917 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:18:12:06 +0000] "PUT /api/v1/chat/removeFromGroup HTTP/1.1" 201 1359 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:18:12:22 +0000] "PUT /api/v1/chat/removeFromGroup HTTP/1.1" 201 1359 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:18:12:35 +0000] "PUT /api/v1/chat/removeFromGroup HTTP/1.1" 201 1359 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:18:14:31 +0000] "PUT /api/v1/chat/removeFromGroup HTTP/1.1" 500 128 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:18:14:41 +0000] "PUT /api/v1/chat/removeFromGroup HTTP/1.1" 201 1359 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:18:15:28 +0000] "PUT /api/v1/chat/removeFromGroup HTTP/1.1" 201 1086 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:18:16:31 +0000] "PUT /api/v1/chat/addToGroup HTTP/1.1" 201 1361 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:18:19:38 +0000] "PUT /api/v1/chat/addToGroup HTTP/1.1" 201 1634 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:18:20:49 +0000] "PUT /api/v1/chat/addToGroup HTTP/1.1" 201 1907 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:18:21:05 +0000] "PUT /api/v1/chat/removeFromGroup HTTP/1.1" 500 35 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:18:21:56 +0000] "PUT /api/v1/chat/removeFromGroup HTTP/1.1" 201 1086 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:18:22:14 +0000] "PUT /api/v1/chat/AddToGroup HTTP/1.1" 201 1361 "-" "PostmanRuntime/7.32.2"
+

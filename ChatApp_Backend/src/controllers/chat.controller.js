@@ -62,7 +62,7 @@ export const fetchChat = async (req, res, next) => {
   };
 
    /**
- * Controller to create group chat
+ * Controller to rename group chat
  * @param  {object} req - request object
  * @param {object} res - response object
  * @param {Function} next
@@ -80,3 +80,43 @@ export const fetchChat = async (req, res, next) => {
     next(error);
   }
   };
+
+     /**
+ * Controller to add new user to  group chat
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+     export const addToGroup = async (req, res, next) => {
+      try {
+      const data = await ChatService.addToGroup(req);
+      console.log("data",data);
+      res.status(HttpStatus.CREATED).json({
+        code: HttpStatus.CREATED,
+        data: data,
+        message: 'New user added successfully'
+      });
+    }catch (error){
+      next(error);
+    }
+    };
+
+         /**
+ * Controller to add new user to  group chat
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+         export const removeFromGroup = async (req, res, next) => {
+          try {
+          const data = await ChatService.removeFromGroup(req);
+          console.log("data",data);
+          res.status(HttpStatus.CREATED).json({
+            code: HttpStatus.CREATED,
+            data: data,
+            message: 'User removed successfully'
+          });
+        }catch (error){
+          next(error);
+        }
+      }
