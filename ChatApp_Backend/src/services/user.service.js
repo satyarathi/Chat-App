@@ -15,7 +15,7 @@ export const getAllUsers = async (req) => {
     : {};
     console.log(keyword);
     console.log(req.query);
-  const data = await User.find(keyword)
+  const data = await User.find(keyword).find({_id: {$ne: req.body.userId}})
   return data;
 };
  
@@ -50,7 +50,7 @@ export const userLogin = async (body) =>{
       throw new Error("Invalid Password");
     }
 
-    let token = jwt.sign({email : userData.email, id : userData._id},process.env.JWT_SECRET_KEY)
+    let token = jwt.sign({ id : userData._id,},process.env.JWT_SECRET_KEY)
     return token;
   }
   catch(error){

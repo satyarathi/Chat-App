@@ -1,0 +1,144 @@
+info: ::1 - - [21/Apr/2023:04:15:51 +0000] "POST /api/v1/chat HTTP/1.1" - - "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:04:17:14 +0000] "POST /api/v1/chat HTTP/1.1" - - "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:04:18:08 +0000] "POST /api/v1/chat HTTP/1.1" 201 516 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:04:32:58 +0000] "GET /api/v1/users?search=moha HTTP/1.1" 201 407 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:04:33:41 +0000] "GET /api/v1/users?search=moha HTTP/1.1" 500 85 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:04:36:35 +0000] "GET /api/v1/users?search=moha HTTP/1.1" 500 85 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:04:37:27 +0000] "GET /api/v1/users?search=moha HTTP/1.1" 500 85 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:04:38:16 +0000] "GET /api/v1/users?search=moha HTTP/1.1" 500 85 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:04:38:51 +0000] "GET /api/v1/users?search=moha HTTP/1.1" 500 85 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:04:39:20 +0000] "GET /api/v1/users?search=moha HTTP/1.1" 500 86 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:04:40:07 +0000] "GET /api/v1/users?search=moha HTTP/1.1" 500 86 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:04:40:57 +0000] "GET /api/v1/users?search=moha HTTP/1.1" 500 85 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:04:41:45 +0000] "GET /api/v1/users?search=moha HTTP/1.1" 201 407 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:03:40 +0000] "POST /api/v1/chat HTTP/1.1" 201 516 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:06:20 +0000] "POST /api/v1/chat HTTP/1.1" 201 516 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:06:46 +0000] "POST /api/v1/chat HTTP/1.1" 201 516 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:07:04 +0000] "POST /api/v1/chat HTTP/1.1" 201 516 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:07:25 +0000] "POST /api/v1/chat HTTP/1.1" 201 516 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:08:09 +0000] "POST /api/v1/chat HTTP/1.1" 500 86 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:10:47 +0000] "POST /api/v1/chat HTTP/1.1" 201 50 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:13:19 +0000] "POST /api/v1/chat HTTP/1.1" 201 50 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:14:35 +0000] "POST /api/v1/chat HTTP/1.1" 201 50 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:16:01 +0000] "POST /api/v1/chat HTTP/1.1" 201 50 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:16:47 +0000] "POST /api/v1/chat HTTP/1.1" 201 50 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:18:41 +0000] "POST /api/v1/chat HTTP/1.1" 500 86 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:19:44 +0000] "POST /api/v1/chat HTTP/1.1" 201 789 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:21:13 +0000] "POST /api/v1/chat HTTP/1.1" 201 789 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:21:17 +0000] "POST /api/v1/chat HTTP/1.1" 201 789 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:21:56 +0000] "POST /api/v1/chat HTTP/1.1" 201 501 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:22:31 +0000] "POST /api/v1/chat HTTP/1.1" 201 789 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:25:33 +0000] "GET /api/v1/users?search=moha HTTP/1.1" 201 407 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:25:40 +0000] "GET /api/v1/users?search=m HTTP/1.1" 201 4673 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:25:50 +0000] "GET /api/v1/users?search=ran HTTP/1.1" 201 404 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:25:56 +0000] "GET /api/v1/users?search=rana HTTP/1.1" 201 404 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:33:07 +0000] "POST /api/v1/chat HTTP/1.1" 201 789 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:37:28 +0000] "POST /api/v1/chat HTTP/1.1" 201 789 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:06:50:49 +0000] "POST /api/v1/chat HTTP/1.1" 201 794 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:06:51:04 +0000] "POST /api/v1/chat HTTP/1.1" 201 506 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:06:51:20 +0000] "POST /api/v1/chat HTTP/1.1" 201 794 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:06:51:56 +0000] "GET /api/v1/chat HTTP/1.1" 201 50 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:06:52:10 +0000] "POST /api/v1/chat HTTP/1.1" 201 794 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:06:52:19 +0000] "GET /api/v1/chat HTTP/1.1" 201 50 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:06:59:15 +0000] "GET /api/v1/chat HTTP/1.1" 500 73 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:06:59:18 +0000] "GET /api/v1/chat HTTP/1.1" 500 73 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:06:59:58 +0000] "GET /api/v1/chat HTTP/1.1" 201 50 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:07:07:37 +0000] "GET /api/v1/chat HTTP/1.1" 201 50 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:07:10:49 +0000] "GET /api/v1/chat HTTP/1.1" 201 50 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:07:11:10 +0000] "GET /api/v1/chat HTTP/1.1" 201 50 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:07:12:33 +0000] "GET /api/v1/chat HTTP/1.1" 201 50 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:07:57:30 +0000] "GET /api/v1/chat HTTP/1.1" 201 50 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:07:59:15 +0000] "GET /api/v1/chat HTTP/1.1" 201 50 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:08:00:48 +0000] "GET /api/v1/chat HTTP/1.1" 500 57 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:08:06:36 +0000] "GET /api/v1/chat HTTP/1.1" 201 50 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:08:08:40 +0000] "GET /api/v1/chat HTTP/1.1" 201 50 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:08:10:46 +0000] "GET /api/v1/chat HTTP/1.1" 201 1235 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:08:11:12 +0000] "GET /api/v1/chat HTTP/1.1" 201 50 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:08:11:38 +0000] "GET /api/v1/chat HTTP/1.1" 201 1235 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:10:29:23 +0000] "POST /api/v1/chat HTTP/1.1" 201 794 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:10:44:56 +0000] "POST /api/v1/chat/group HTTP/1.1" 201 795 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:10:46:53 +0000] "POST /api/v1/chat/group HTTP/1.1" 500 53 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:10:47:14 +0000] "POST /api/v1/chat/group HTTP/1.1" 500 65 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:10:48:15 +0000] "POST /api/v1/chat/group HTTP/1.1" 201 1073 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:10:49:23 +0000] "POST /api/v1/chat/group HTTP/1.1" 201 1073 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:10:52:42 +0000] "POST /api/v1/chat/group HTTP/1.1" 201 1073 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:10:54:01 +0000] "POST /api/v1/chat/group HTTP/1.1" 201 1073 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:11:02:01 +0000] "POST /api/v1/chat/group HTTP/1.1" 201 1073 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:11:04:11 +0000] "POST /api/v1/chat/group HTTP/1.1" 201 1073 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:11:07:51 +0000] "POST /api/v1/chat/group HTTP/1.1" 201 1073 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:11:08:44 +0000] "POST /api/v1/chat/group HTTP/1.1" 201 1346 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:11:10:45 +0000] "POST /api/v1/chat/group HTTP/1.1" 201 1073 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:11:11:10 +0000] "POST /api/v1/chat/group HTTP/1.1" 201 1346 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:11:11:18 +0000] "POST /api/v1/chat/group HTTP/1.1" 201 1346 "-" "PostmanRuntime/7.32.2"
+

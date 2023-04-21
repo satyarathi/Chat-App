@@ -452,3 +452,336 @@ info: ::1 - - [20/Apr/2023:08:51:20 +0000] "GET /api/v1/users?search=moha HTTP/1
 
 info: ::1 - - [20/Apr/2023:08:51:22 +0000] "GET /api/v1/users?search=moha HTTP/1.1" 500 85 "-" "PostmanRuntime/7.32.2"
 
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:469:13)
+    at routes (D:\Chat-bot\Chat-App\ChatApp_Backend\src\routes\/index.js:17:10)
+    at Object.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.newLoader [as .js] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Thu Apr 20 2023 14:44:30 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":190450.75},"process":{"argv":["node","D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\src\\index.js"],"cwd":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18361755,"external":19877475,"heapTotal":99106816,"heapUsed":51452768,"rss":136597504},"pid":11840,"uid":null,"version":"v18.15.0"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\src\\routes\\/index.js:17:10)\n    at Object.<anonymous> (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._compile (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Object.newLoader [as .js] (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":13,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\src\\routes\\/index.js","function":"routes","line":17,"method":null,"native":false},{"column":38,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":24,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":7,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+info: ::1 - - [20/Apr/2023:10:59:29 +0000] "GET /api/v1/users?search=moha HTTP/1.1" 201 407 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [20/Apr/2023:11:00:28 +0000] "POST /api/v1/users/chat HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [20/Apr/2023:11:00:33 +0000] "POST /api/v1/users/chats HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [20/Apr/2023:11:00:45 +0000] "POST /api/v1/chats HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [20/Apr/2023:11:01:45 +0000] "POST /api/v1/chat HTTP/1.1" 500 85 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [20/Apr/2023:11:33:15 +0000] "POST /api/v1/chat HTTP/1.1" 500 63 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [20/Apr/2023:11:34:27 +0000] "POST /api/v1/chat HTTP/1.1" 500 63 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [20/Apr/2023:11:34:29 +0000] "POST /api/v1/chat HTTP/1.1" 500 63 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [20/Apr/2023:11:36:26 +0000] "POST /api/v1/chat HTTP/1.1" 500 74 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [20/Apr/2023:11:37:34 +0000] "POST /api/v1/chat HTTP/1.1" 500 87 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [20/Apr/2023:11:38:09 +0000] "POST /api/v1/chat HTTP/1.1" 500 89 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [20/Apr/2023:11:40:47 +0000] "POST /api/v1/chat HTTP/1.1" 500 87 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [20/Apr/2023:11:40:49 +0000] "POST /api/v1/chat HTTP/1.1" 500 87 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [20/Apr/2023:11:48:29 +0000] "POST /api/v1/chat HTTP/1.1" 201 502 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [20/Apr/2023:12:00:24 +0000] "GET /api/v1/users?search=s HTTP/1.1" 201 2567 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [20/Apr/2023:12:00:56 +0000] "POST /api/v1/chat HTTP/1.1" 201 514 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [20/Apr/2023:12:06:02 +0000] "GET /api/v1/users?search=moha HTTP/1.1" 201 407 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [20/Apr/2023:12:07:17 +0000] "GET /api/v1/users?search=m HTTP/1.1" 201 4326 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [20/Apr/2023:12:08:12 +0000] "POST /api/v1/users HTTP/1.1" 500 59 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [20/Apr/2023:12:08:17 +0000] "POST /api/v1/users HTTP/1.1" 201 404 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [20/Apr/2023:12:08:25 +0000] "POST /api/v1/users/login HTTP/1.1" 200 239 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [20/Apr/2023:12:10:31 +0000] "POST /api/v1/users/login HTTP/1.1" 200 239 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [20/Apr/2023:12:12:23 +0000] "POST /api/v1/users/login HTTP/1.1" 200 239 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [20/Apr/2023:12:13:20 +0000] "POST /api/v1/chat HTTP/1.1" 201 514 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [20/Apr/2023:12:15:03 +0000] "POST /api/v1/chat HTTP/1.1" 201 514 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [20/Apr/2023:12:15:08 +0000] "POST /api/v1/chat HTTP/1.1" 201 514 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [20/Apr/2023:12:17:27 +0000] "POST /api/v1/chat HTTP/1.1" 201 518 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [20/Apr/2023:12:21:27 +0000] "POST /api/v1/chat HTTP/1.1" 201 518 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [20/Apr/2023:12:21:29 +0000] "POST /api/v1/chat HTTP/1.1" 201 518 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [20/Apr/2023:12:21:30 +0000] "POST /api/v1/chat HTTP/1.1" 201 518 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [20/Apr/2023:12:27:36 +0000] "POST /api/v1/chat HTTP/1.1" 201 52 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [20/Apr/2023:12:27:45 +0000] "POST /api/v1/chat HTTP/1.1" 201 518 "-" "PostmanRuntime/7.32.2"
+
+error: uncaughtException: Chat is not defined
+ReferenceError: Chat is not defined
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\controllers\/chat.controller.js:16:33)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at accessChat (D:\Chat-bot\Chat-App\ChatApp_Backend\src\controllers\/chat.controller.js:11:24)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at protect (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/protect.middleware.js:20:7)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Apr 20 2023 17:59:09 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":202129.281},"process":{"argv":["node","D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\src\\index.js"],"cwd":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19714214,"external":21249029,"heapTotal":102006784,"heapUsed":60003088,"rss":141688832},"pid":21064,"uid":null,"version":"v18.15.0"},"stack":"ReferenceError: Chat is not defined\n    at _callee$ (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\src\\controllers\\/chat.controller.js:16:33)\n    at tryCatch (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at apply (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12)\n    at accessChat (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\src\\controllers\\/chat.controller.js:11:24)\n    at Layer.handle [as handle_request] (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at protect (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\src\\middlewares\\/protect.middleware.js:20:7)\n    at Layer.handle [as handle_request] (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at logger (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\morgan\\index.js:144:5)\n    at Layer.handle [as handle_request] (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\body-parser\\lib\\read.js:137:5\n    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)\n    at invokeCallback (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\raw-body\\index.js:231:16)\n    at done (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\raw-body\\index.js:220:7)\n    at IncomingMessage.onEnd (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\raw-body\\index.js:280:7)\n    at IncomingMessage.emit (node:events:513:28)\n    at IncomingMessage.emit (node:domain:489:12)\n    at endReadableNT (node:internal/streams/readable:1359:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":33,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\src\\controllers\\/chat.controller.js","function":"_callee$","line":16,"method":null,"native":false},{"column":17,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":7,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":27,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"apply","line":19,"method":null,"native":false},{"column":24,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\src\\controllers\\/chat.controller.js","function":"accessChat","line":11,"method":null,"native":false},{"column":5,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":7,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\src\\middlewares\\/protect.middleware.js","function":"protect","line":20,"method":null,"native":false},{"column":5,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":3,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\route.js","function":"Route.dispatch","line":114,"method":"dispatch","native":false},{"column":5,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":15,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":null,"line":284,"method":null,"native":false},{"column":12,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":3,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"Function.handle","line":175,"method":"handle","native":false},{"column":12,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"router","line":47,"method":null,"native":false},{"column":5,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"trim_prefix","line":328,"method":null,"native":false},{"column":9,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":null,"line":286,"method":null,"native":false},{"column":12,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":3,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"Function.handle","line":175,"method":"handle","native":false},{"column":12,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"router","line":47,"method":null,"native":false},{"column":5,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"trim_prefix","line":328,"method":null,"native":false},{"column":9,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":null,"line":286,"method":null,"native":false},{"column":12,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":5,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\morgan\\index.js","function":"logger","line":144,"method":null,"native":false},{"column":5,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"trim_prefix","line":328,"method":null,"native":false},{"column":9,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":null,"line":286,"method":null,"native":false},{"column":12,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":5,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\body-parser\\lib\\read.js","function":null,"line":137,"method":null,"native":false},{"column":9,"file":"node:async_hooks","function":"AsyncResource.runInAsyncScope","line":204,"method":"runInAsyncScope","native":false},{"column":16,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\raw-body\\index.js","function":"invokeCallback","line":231,"method":null,"native":false},{"column":7,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\raw-body\\index.js","function":"done","line":220,"method":null,"native":false},{"column":7,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\raw-body\\index.js","function":"IncomingMessage.onEnd","line":280,"method":"onEnd","native":false},{"column":28,"file":"node:events","function":"IncomingMessage.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"IncomingMessage.emit","line":489,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"endReadableNT","line":1359,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::1 - - [20/Apr/2023:12:31:17 +0000] "POST /api/v1/chat HTTP/1.1" - - "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [20/Apr/2023:12:36:37 +0000] "POST /api/v1/chat HTTP/1.1" - - "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:04:15:51 +0000] "POST /api/v1/chat HTTP/1.1" - - "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:04:17:14 +0000] "POST /api/v1/chat HTTP/1.1" - - "-" "PostmanRuntime/7.32.2"
+
+error: uncaughtException: Chat is not defined
+ReferenceError: Chat is not defined
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\controllers\/chat.controller.js:16:33)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at accessChat (D:\Chat-bot\Chat-App\ChatApp_Backend\src\controllers\/chat.controller.js:11:24)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at protect (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/protect.middleware.js:20:7)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Apr 21 2023 09:47:43 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":259043.781},"process":{"argv":["node","D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\src\\index.js"],"cwd":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19714284,"external":21249099,"heapTotal":102268928,"heapUsed":60193744,"rss":142381056},"pid":19044,"uid":null,"version":"v18.15.0"},"stack":"ReferenceError: Chat is not defined\n    at _callee$ (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\src\\controllers\\/chat.controller.js:16:33)\n    at tryCatch (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at apply (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12)\n    at accessChat (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\src\\controllers\\/chat.controller.js:11:24)\n    at Layer.handle [as handle_request] (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at protect (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\src\\middlewares\\/protect.middleware.js:20:7)\n    at Layer.handle [as handle_request] (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at logger (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\morgan\\index.js:144:5)\n    at Layer.handle [as handle_request] (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\body-parser\\lib\\read.js:137:5\n    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)\n    at invokeCallback (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\raw-body\\index.js:231:16)\n    at done (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\raw-body\\index.js:220:7)\n    at IncomingMessage.onEnd (D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\raw-body\\index.js:280:7)\n    at IncomingMessage.emit (node:events:513:28)\n    at IncomingMessage.emit (node:domain:489:12)\n    at endReadableNT (node:internal/streams/readable:1359:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":33,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\src\\controllers\\/chat.controller.js","function":"_callee$","line":16,"method":null,"native":false},{"column":17,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":7,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":27,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"apply","line":19,"method":null,"native":false},{"column":24,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\src\\controllers\\/chat.controller.js","function":"accessChat","line":11,"method":null,"native":false},{"column":5,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":7,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\src\\middlewares\\/protect.middleware.js","function":"protect","line":20,"method":null,"native":false},{"column":5,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":3,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\route.js","function":"Route.dispatch","line":114,"method":"dispatch","native":false},{"column":5,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":15,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":null,"line":284,"method":null,"native":false},{"column":12,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":3,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"Function.handle","line":175,"method":"handle","native":false},{"column":12,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"router","line":47,"method":null,"native":false},{"column":5,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"trim_prefix","line":328,"method":null,"native":false},{"column":9,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":null,"line":286,"method":null,"native":false},{"column":12,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":3,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"Function.handle","line":175,"method":"handle","native":false},{"column":12,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"router","line":47,"method":null,"native":false},{"column":5,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"trim_prefix","line":328,"method":null,"native":false},{"column":9,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":null,"line":286,"method":null,"native":false},{"column":12,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":5,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\morgan\\index.js","function":"logger","line":144,"method":null,"native":false},{"column":5,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"trim_prefix","line":328,"method":null,"native":false},{"column":9,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":null,"line":286,"method":null,"native":false},{"column":12,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":5,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\body-parser\\lib\\read.js","function":null,"line":137,"method":null,"native":false},{"column":9,"file":"node:async_hooks","function":"AsyncResource.runInAsyncScope","line":204,"method":"runInAsyncScope","native":false},{"column":16,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\raw-body\\index.js","function":"invokeCallback","line":231,"method":null,"native":false},{"column":7,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\raw-body\\index.js","function":"done","line":220,"method":null,"native":false},{"column":7,"file":"D:\\Chat-bot\\Chat-App\\ChatApp_Backend\\node_modules\\raw-body\\index.js","function":"IncomingMessage.onEnd","line":280,"method":"onEnd","native":false},{"column":28,"file":"node:events","function":"IncomingMessage.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"IncomingMessage.emit","line":489,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"endReadableNT","line":1359,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::1 - - [21/Apr/2023:04:18:08 +0000] "POST /api/v1/chat HTTP/1.1" 201 516 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:04:32:58 +0000] "GET /api/v1/users?search=moha HTTP/1.1" 201 407 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:04:33:41 +0000] "GET /api/v1/users?search=moha HTTP/1.1" 500 85 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:04:36:35 +0000] "GET /api/v1/users?search=moha HTTP/1.1" 500 85 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:04:37:27 +0000] "GET /api/v1/users?search=moha HTTP/1.1" 500 85 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:04:38:16 +0000] "GET /api/v1/users?search=moha HTTP/1.1" 500 85 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:04:38:51 +0000] "GET /api/v1/users?search=moha HTTP/1.1" 500 85 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:04:39:20 +0000] "GET /api/v1/users?search=moha HTTP/1.1" 500 86 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:04:40:07 +0000] "GET /api/v1/users?search=moha HTTP/1.1" 500 86 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:04:40:57 +0000] "GET /api/v1/users?search=moha HTTP/1.1" 500 85 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:04:41:45 +0000] "GET /api/v1/users?search=moha HTTP/1.1" 201 407 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:03:40 +0000] "POST /api/v1/chat HTTP/1.1" 201 516 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:06:20 +0000] "POST /api/v1/chat HTTP/1.1" 201 516 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:06:46 +0000] "POST /api/v1/chat HTTP/1.1" 201 516 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:07:04 +0000] "POST /api/v1/chat HTTP/1.1" 201 516 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:07:25 +0000] "POST /api/v1/chat HTTP/1.1" 201 516 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:08:09 +0000] "POST /api/v1/chat HTTP/1.1" 500 86 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:10:47 +0000] "POST /api/v1/chat HTTP/1.1" 201 50 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:13:19 +0000] "POST /api/v1/chat HTTP/1.1" 201 50 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:14:35 +0000] "POST /api/v1/chat HTTP/1.1" 201 50 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:16:01 +0000] "POST /api/v1/chat HTTP/1.1" 201 50 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:16:47 +0000] "POST /api/v1/chat HTTP/1.1" 201 50 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:18:41 +0000] "POST /api/v1/chat HTTP/1.1" 500 86 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:19:44 +0000] "POST /api/v1/chat HTTP/1.1" 201 789 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:21:13 +0000] "POST /api/v1/chat HTTP/1.1" 201 789 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:21:17 +0000] "POST /api/v1/chat HTTP/1.1" 201 789 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:21:56 +0000] "POST /api/v1/chat HTTP/1.1" 201 501 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:22:31 +0000] "POST /api/v1/chat HTTP/1.1" 201 789 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:25:33 +0000] "GET /api/v1/users?search=moha HTTP/1.1" 201 407 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:25:40 +0000] "GET /api/v1/users?search=m HTTP/1.1" 201 4673 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:25:50 +0000] "GET /api/v1/users?search=ran HTTP/1.1" 201 404 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:25:56 +0000] "GET /api/v1/users?search=rana HTTP/1.1" 201 404 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:33:07 +0000] "POST /api/v1/chat HTTP/1.1" 201 789 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:05:37:28 +0000] "POST /api/v1/chat HTTP/1.1" 201 789 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:06:50:49 +0000] "POST /api/v1/chat HTTP/1.1" 201 794 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:06:51:04 +0000] "POST /api/v1/chat HTTP/1.1" 201 506 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:06:51:20 +0000] "POST /api/v1/chat HTTP/1.1" 201 794 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:06:51:56 +0000] "GET /api/v1/chat HTTP/1.1" 201 50 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:06:52:10 +0000] "POST /api/v1/chat HTTP/1.1" 201 794 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:06:52:19 +0000] "GET /api/v1/chat HTTP/1.1" 201 50 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:06:59:15 +0000] "GET /api/v1/chat HTTP/1.1" 500 73 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:06:59:18 +0000] "GET /api/v1/chat HTTP/1.1" 500 73 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:06:59:58 +0000] "GET /api/v1/chat HTTP/1.1" 201 50 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:07:07:37 +0000] "GET /api/v1/chat HTTP/1.1" 201 50 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:07:10:49 +0000] "GET /api/v1/chat HTTP/1.1" 201 50 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:07:11:10 +0000] "GET /api/v1/chat HTTP/1.1" 201 50 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:07:12:33 +0000] "GET /api/v1/chat HTTP/1.1" 201 50 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:07:57:30 +0000] "GET /api/v1/chat HTTP/1.1" 201 50 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:07:59:15 +0000] "GET /api/v1/chat HTTP/1.1" 201 50 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:08:00:48 +0000] "GET /api/v1/chat HTTP/1.1" 500 57 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:08:06:36 +0000] "GET /api/v1/chat HTTP/1.1" 201 50 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:08:08:40 +0000] "GET /api/v1/chat HTTP/1.1" 201 50 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:08:10:46 +0000] "GET /api/v1/chat HTTP/1.1" 201 1235 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:08:11:12 +0000] "GET /api/v1/chat HTTP/1.1" 201 50 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:08:11:38 +0000] "GET /api/v1/chat HTTP/1.1" 201 1235 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:10:29:23 +0000] "POST /api/v1/chat HTTP/1.1" 201 794 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:10:44:56 +0000] "POST /api/v1/chat/group HTTP/1.1" 201 795 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:10:46:53 +0000] "POST /api/v1/chat/group HTTP/1.1" 500 53 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:10:47:14 +0000] "POST /api/v1/chat/group HTTP/1.1" 500 65 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:10:48:15 +0000] "POST /api/v1/chat/group HTTP/1.1" 201 1073 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:10:49:23 +0000] "POST /api/v1/chat/group HTTP/1.1" 201 1073 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:10:52:42 +0000] "POST /api/v1/chat/group HTTP/1.1" 201 1073 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:10:54:01 +0000] "POST /api/v1/chat/group HTTP/1.1" 201 1073 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:11:02:01 +0000] "POST /api/v1/chat/group HTTP/1.1" 201 1073 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:11:04:11 +0000] "POST /api/v1/chat/group HTTP/1.1" 201 1073 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:11:07:51 +0000] "POST /api/v1/chat/group HTTP/1.1" 201 1073 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:11:08:44 +0000] "POST /api/v1/chat/group HTTP/1.1" 201 1346 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:11:10:45 +0000] "POST /api/v1/chat/group HTTP/1.1" 201 1073 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:11:11:10 +0000] "POST /api/v1/chat/group HTTP/1.1" 201 1346 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:11:11:18 +0000] "POST /api/v1/chat/group HTTP/1.1" 201 1346 "-" "PostmanRuntime/7.32.2"
+

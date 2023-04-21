@@ -5,13 +5,13 @@ import { protect } from '../middlewares/protect.middleware';
 
 const router = express.Router();
 
-//route to get all users
+//route to access chat
 router.post('/', protect, chatController.accessChat);
 
-// //route to create a new user
-// router.post('/', newUserValidator, userController.userRegister);
+//route to fetch chat
+router.get('/', protect, chatController.fetchChat);
 
-// //route to Login user
-// router.post('/login', userController.userLogin);
+//route to create group chat
+router.post('/group', protect, chatController.createGroupChat);
 
 export default router;

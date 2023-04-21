@@ -1,0 +1,674 @@
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T04:16:04.197Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T04:16:04.226Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T04:17:21.377Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T04:17:21.393Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T04:17:39.902Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T04:17:39.937Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T04:18:04.598Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T04:18:04.615Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T04:32:11.482Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T04:32:11.499Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T04:32:41.421Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T04:32:41.440Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T04:32:44.650Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T04:32:44.683Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T04:33:34.957Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T04:33:34.976Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/auth.middleware.js:23:28)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users?search=moha 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-21T04:33:41.549Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/auth.middleware.js:23:28)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users?search=moha 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-21T04:36:35.864Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T04:37:24.155Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T04:37:24.175Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/auth.middleware.js:23:28)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users?search=moha 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-21T04:37:27.698Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T04:38:11.789Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T04:38:11.816Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/auth.middleware.js:24:28)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users?search=moha 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-21T04:38:16.464Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T04:38:46.862Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T04:38:46.888Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/auth.middleware.js:25:28)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users?search=moha 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-21T04:38:51.326Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T04:39:15.941Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T04:39:15.962Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading '_id')
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/user.service.js:18:67)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.getAllUsers (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/user.service.js:6:25)
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\controllers\/user.controller.js:13:34)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getAllUsers (D:\Chat-bot\Chat-App\ChatApp_Backend\src\controllers\/user.controller.js:11:25)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/auth.middleware.js:27:5)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users?search=moha 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-21T04:39:20.373Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T04:39:58.086Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T04:39:58.114Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading '_id')
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/user.service.js:18:67)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.getAllUsers (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/user.service.js:6:25)
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\controllers\/user.controller.js:13:34)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getAllUsers (D:\Chat-bot\Chat-App\ChatApp_Backend\src\controllers\/user.controller.js:11:25)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/auth.middleware.js:27:5)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users?search=moha 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-21T04:40:07.689Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T04:40:55.454Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T04:40:55.477Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/user.service.js:18:67)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.getAllUsers (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/user.service.js:6:25)
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\controllers\/user.controller.js:13:34)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getAllUsers (D:\Chat-bot\Chat-App\ChatApp_Backend\src\controllers\/user.controller.js:11:25)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/auth.middleware.js:27:5)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users?search=moha 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-21T04:40:57.854Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T04:41:42.172Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T04:41:42.199Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T04:56:11.226Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T04:56:11.268Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T05:02:51.686Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T05:02:51.709Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T05:06:15.800Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T05:06:15.820Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T05:06:42.605Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T05:06:42.632Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T05:07:01.512Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T05:07:01.534Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T05:07:16.986Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T05:07:17.008Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T05:08:06.382Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T05:08:06.403Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading '_id')
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/chat.service.js:23:48)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.accessChat (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/chat.service.js:10:24)
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\controllers\/chat.controller.js:13:36)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at accessChat (D:\Chat-bot\Chat-App\ChatApp_Backend\src\controllers\/chat.controller.js:11:24)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at protect (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/protect.middleware.js:20:7)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/chat 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T05:08:09.491Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T05:10:06.948Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T05:10:06.981Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T05:10:40.703Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T05:10:40.724Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T05:13:12.752Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T05:13:12.773Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T05:14:34.327Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T05:14:34.358Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T05:15:17.512Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T05:15:17.535Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T05:15:53.364Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T05:15:53.386Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T05:16:43.330Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T05:16:43.353Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T05:18:37.524Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T05:18:37.549Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading '_id')
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/chat.service.js:42:26)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/chat 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T05:18:41.421Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T05:19:44.386Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T05:19:44.436Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T05:21:55.858Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T05:21:55.880Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T05:22:15.537Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T05:22:15.583Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T05:25:27.225Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T05:25:27.249Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T05:36:57.900Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T05:36:57.928Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T05:37:25.498Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T05:37:25.532Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T06:06:01.739Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T06:06:01.761Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T06:31:23.346Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T06:31:23.377Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T06:48:00.896Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T06:48:00.916Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T06:50:06.024Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T06:50:06.064Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T06:50:41.737Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T06:50:41.765Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T06:51:01.986Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T06:51:02.012Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T06:51:20.297Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T06:51:20.336Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T06:51:45.514Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T06:51:45.536Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T06:59:12.784Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T06:59:12.808Z"}
+error: 
+    status - 500 
+    message - Error: ReferenceError: results is not defined
+    at _callee3$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/chat.service.js:74:11)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.fetchChat (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/chat.service.js:59:23)
+    at _callee2$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\controllers\/chat.controller.js:32:34)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at fetchChat (D:\Chat-bot\Chat-App\ChatApp_Backend\src\controllers\/chat.controller.js:30:23)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at protect (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/protect.middleware.js:19:7)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/chat 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-21T06:59:15.720Z"}
+error: 
+    status - 500 
+    message - Error: ReferenceError: results is not defined
+    at _callee3$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/chat.service.js:74:11)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.fetchChat (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/chat.service.js:59:23)
+    at _callee2$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\controllers\/chat.controller.js:32:34)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at fetchChat (D:\Chat-bot\Chat-App\ChatApp_Backend\src\controllers\/chat.controller.js:30:23)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at protect (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/protect.middleware.js:19:7)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/chat 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-21T06:59:18.647Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T06:59:58.132Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T06:59:58.162Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T07:07:26.952Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T07:07:26.980Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T07:11:00.027Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T07:11:00.055Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T07:12:29.419Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T07:12:29.442Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T07:57:29.579Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T07:57:29.595Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T07:59:11.931Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T07:59:11.947Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T08:00:43.744Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T08:00:43.766Z"}
+error: 
+    status - 500 
+    message - ReferenceError: results is not defined
+    at _callee3$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/chat.service.js:75:12)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.fetchChat (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/chat.service.js:59:23)
+    at _callee2$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\controllers\/chat.controller.js:32:34)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at fetchChat (D:\Chat-bot\Chat-App\ChatApp_Backend\src\controllers\/chat.controller.js:30:23)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at protect (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/protect.middleware.js:19:7)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/chat 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-21T08:00:48.353Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T08:05:11.232Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T08:05:11.253Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T08:08:21.248Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T08:08:21.264Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T08:08:27.805Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T08:08:27.826Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T08:10:42.062Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T08:10:42.085Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T08:11:06.116Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T08:11:06.132Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T08:11:33.189Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T08:11:33.217Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T09:48:57.494Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T09:48:57.514Z"}
+error: 
+    status - 500 
+    message - ReferenceError: err is not defined
+    at _callee4$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/chat.service.js:88:22)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.createGroupChat (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/chat.service.js:80:29)
+    at _callee3$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\controllers\/chat.controller.js:52:36)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at createGroupChat (D:\Chat-bot\Chat-App\ChatApp_Backend\src\controllers\/chat.controller.js:50:31)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\raw-body\index.js:231:16) 
+    url - /api/v1/chat/group 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T10:46:53.069Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T10:47:09.879Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T10:47:09.895Z"}
+error: 
+    status - 500 
+    message - Error: More than 2 users are required
+    at _callee4$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/chat.service.js:89:11)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.createGroupChat (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/chat.service.js:80:29)
+    at _callee3$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\controllers\/chat.controller.js:52:36)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at createGroupChat (D:\Chat-bot\Chat-App\ChatApp_Backend\src\controllers\/chat.controller.js:50:31)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\raw-body\index.js:231:16) 
+    url - /api/v1/chat/group 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T10:47:14.020Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T10:49:12.250Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T10:49:12.273Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T10:52:35.839Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T10:52:35.866Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T10:53:28.670Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T10:53:28.688Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T10:53:55.054Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T10:53:55.073Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T11:01:57.990Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T11:01:58.008Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T11:04:10.531Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T11:04:10.551Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T11:07:49.460Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T11:07:49.484Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T11:08:42.349Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T11:08:42.370Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T11:10:41.121Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T11:10:41.150Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T11:11:05.138Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T11:11:05.161Z"}

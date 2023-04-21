@@ -3,7 +3,8 @@ import { Schema, model } from 'mongoose';
 const chatSchema = new Schema(
   {
     chatName: {
-      type: String
+      type: String,
+      trim: true
     },
     isGroupChat: {
       type: Boolean,
