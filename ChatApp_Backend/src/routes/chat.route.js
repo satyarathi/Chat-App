@@ -1,12 +1,12 @@
 import express from 'express';
-import * as userController from '../controllers/user.controller';
-import { newUserValidator } from '../validators/user.validator';
+import * as chatController from '../controllers/chat.controller';
 import { userAuth } from '../middlewares/auth.middleware';
+import { protect } from '../middlewares/protect.middleware';
 
 const router = express.Router();
 
 //route to get all users
-router.post('/', userAuth, chatController.accessChat);
+router.post('/', protect, chatController.accessChat);
 
 // //route to create a new user
 // router.post('/', newUserValidator, userController.userRegister);
