@@ -190,3 +190,19 @@ info: ::1 - - [22/Apr/2023:11:01:41 +0000] "POST /api/v1/message HTTP/1.1" 201 9
 
 info: ::1 - - [22/Apr/2023:11:02:09 +0000] "GET /api/v1/message/6443888c6157267240a0b026 HTTP/1.1" 201 21479 "-" "PostmanRuntime/7.32.2"
 
+info: ::1 - - [22/Apr/2023:11:04:15 +0000] "GET /api/v1/message/6443888c6157267240a0b026 HTTP/1.1" 201 21479 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:11:04:45 +0000] "GET /api/v1/message/6443888c6157267240a0b026 HTTP/1.1" 201 21479 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:11:04:52 +0000] "POST /api/v1/message HTTP/1.1" 201 774 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:11:05:47 +0000] "POST /api/v1/chat HTTP/1.1" 201 506 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:11:06:04 +0000] "GET /api/v1/chat HTTP/1.1" 201 9803 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:11:06:33 +0000] "GET /api/v1/chat HTTP/1.1" 201 10447 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:11:41:23 +0000] "POST /api/v1/message HTTP/1.1" 201 926 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:14:17:02 +0000] "POST /api/v1/users/ HTTP/1.1" 201 412 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+

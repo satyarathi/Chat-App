@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import SignUp from "../signup/signup";
 import Login from "../login/login";
+import Chatpage from "../chatpage/chatpage";
 
 
 function Dashboard() {
@@ -16,11 +17,12 @@ function Dashboard() {
   return (
     <div>
       <div>
-        {toggles ? (
+        <Chatpage />
+        {/* {toggles ? (
           <SignUp listenToSignUpPage={listenToSignUpPage} />
         ) : (
           <Login listenToLoginPage={listenToLoginPage} />
-        )}
+        )} */}
       </div>
     </div>
   );
