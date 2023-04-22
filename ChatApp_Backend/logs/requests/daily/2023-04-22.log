@@ -30,3 +30,163 @@ info: ::1 - - [21/Apr/2023:18:56:40 +0000] "PUT /api/v1/chat/RemoveFromGroup HTT
 
 info: ::1 - - [21/Apr/2023:19:00:25 +0000] "PUT /api/v1/chat/AddToGroup HTTP/1.1" 201 52 "-" "PostmanRuntime/7.32.2"
 
+info: ::1 - - [21/Apr/2023:19:01:58 +0000] "PUT /api/v1/chat/AddToGroup HTTP/1.1" 201 1913 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:19:19:53 +0000] "PUT /api/v1/chat/AddToGroup HTTP/1.1" 201 52 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:19:26:43 +0000] "PUT /api/v1/chat/AddToGroup HTTP/1.1" 201 52 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:19:27:20 +0000] "PUT /api/v1/chat/AddToGroup HTTP/1.1" 201 52 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:19:27:49 +0000] "PUT /api/v1/chat/AddToGroup HTTP/1.1" 201 52 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [21/Apr/2023:19:29:14 +0000] "PUT /api/v1/chat/AddToGroup HTTP/1.1" 201 413 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:07:02:06 +0000] "POST /api/v1/message HTTP/1.1" 500 47 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:07:02:24 +0000] "POST /api/v1/message HTTP/1.1" 500 47 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:07:02:52 +0000] "POST /api/v1/message HTTP/1.1" 500 47 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:07:03:05 +0000] "POST /api/v1/message HTTP/1.1" 500 54 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:07:04:09 +0000] "POST /api/v1/message HTTP/1.1" 201 248 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:07:05:10 +0000] "POST /api/v1/message HTTP/1.1" 500 63 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:07:06:07 +0000] "POST /api/v1/message HTTP/1.1" 201 1338 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:07:11:08 +0000] "POST /api/v1/chat/ HTTP/1.1" 201 793 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:07:12:48 +0000] "POST /api/v1/message/ HTTP/1.1" 201 794 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:07:15:27 +0000] "GET /api/v1/chat HTTP/1.1" 201 9964 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:07:16:32 +0000] "POST /api/v1/message HTTP/1.1" 201 837 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:07:16:39 +0000] "POST /api/v1/message HTTP/1.1" 201 837 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:07:17:34 +0000] "POST /api/v1/message HTTP/1.1" 201 248 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:07:18:10 +0000] "GET /api/v1/chat HTTP/1.1" 201 9964 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:07:18:58 +0000] "POST /api/v1/message HTTP/1.1" 201 248 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:07:20:10 +0000] "POST /api/v1/message HTTP/1.1" 201 248 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:07:21:23 +0000] "POST /api/v1/message HTTP/1.1" 500 63 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:07:21:25 +0000] "POST /api/v1/message HTTP/1.1" 500 63 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:07:23:25 +0000] "POST /api/v1/message HTTP/1.1" 500 60 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:07:23:39 +0000] "POST /api/v1/message HTTP/1.1" 201 154 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:09:37:19 +0000] "GET /api/v1/message HTTP/1.1" 201 65 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:09:38:10 +0000] "GET /api/v1/message/6443888c6157267240a0b026 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:09:39:53 +0000] "GET /api/v1/message/6443888c6157267240a0b026 HTTP/1.1" 201 65 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:09:43:26 +0000] "GET /api/v1/message/6443888c6157267240a0b026 HTTP/1.1" 201 67 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:09:43:42 +0000] "GET /api/v1/message HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:09:43:47 +0000] "POST /api/v1/message HTTP/1.1" 500 63 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:09:46:34 +0000] "POST /api/v1/message HTTP/1.1" 201 248 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:09:49:12 +0000] "POST /api/v1/message HTTP/1.1" 201 248 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:09:49:15 +0000] "POST /api/v1/message HTTP/1.1" 201 248 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:09:49:16 +0000] "POST /api/v1/message HTTP/1.1" 201 248 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:09:49:17 +0000] "POST /api/v1/message HTTP/1.1" 201 248 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:09:50:05 +0000] "POST /api/v1/message HTTP/1.1" 201 837 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:09:51:07 +0000] "POST /api/v1/message HTTP/1.1" 201 837 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:09:52:05 +0000] "POST /api/v1/message HTTP/1.1" 201 890 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:09:52:23 +0000] "POST /api/v1/message HTTP/1.1" 201 837 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:09:54:00 +0000] "POST /api/v1/message HTTP/1.1" 500 35 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:09:54:39 +0000] "POST /api/v1/message HTTP/1.1" 201 50 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:09:55:08 +0000] "POST /api/v1/message HTTP/1.1" 201 153 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:09:55:41 +0000] "GET /api/v1/message/6443888c6157267240a0b026 HTTP/1.1" 201 67 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:09:57:06 +0000] "GET /api/v1/message/6443888c6157267240a0b026 HTTP/1.1" 201 67 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:09:57:24 +0000] "GET /api/v1/message/6443888c6157267240a0b026 HTTP/1.1" 201 67 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:09:58:51 +0000] "GET /api/v1/message/6443888c6157267240a0b026 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:09:59:16 +0000] "GET /api/v1/message/6443888c6157267240a0b026 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:09:59:56 +0000] "GET /api/v1/message/6443888c6157267240a0b026 HTTP/1.1" 201 12854 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:10:05:26 +0000] "POST /api/v1/message HTTP/1.1" 201 1011 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:10:06:24 +0000] "GET /api/v1/message/6443888c6157267240a0b026 HTTP/1.1" 201 13410 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:10:10:50 +0000] "POST /api/v1/message HTTP/1.1" 500 93 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:10:11:11 +0000] "POST /api/v1/message HTTP/1.1" 500 86 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:10:11:39 +0000] "POST /api/v1/message HTTP/1.1" 201 837 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:10:14:00 +0000] "POST /api/v1/message HTTP/1.1" 201 248 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:10:14:26 +0000] "POST /api/v1/message HTTP/1.1" 201 214 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:10:14:41 +0000] "POST /api/v1/message HTTP/1.1" 201 237 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:10:15:00 +0000] "POST /api/v1/message HTTP/1.1" 201 271 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:10:15:29 +0000] "GET /api/v1/message/6443888c6157267240a0b026 HTTP/1.1" 201 15101 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:10:22:34 +0000] "GET /api/v1/message/6443888c6157267240a0b026 HTTP/1.1" 201 15641 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:10:23:21 +0000] "GET /api/v1/message/6443888c6157267240a0b026 HTTP/1.1" 201 15641 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:10:23:32 +0000] "POST /api/v1/message/ HTTP/1.1" 201 235 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:10:23:46 +0000] "POST /api/v1/message/ HTTP/1.1" 201 235 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:10:23:57 +0000] "POST /api/v1/message/ HTTP/1.1" 201 232 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:10:24:08 +0000] "GET /api/v1/message/6443888c6157267240a0b026 HTTP/1.1" 201 16895 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:10:48:49 +0000] "GET /api/v1/message/6443888c6157267240a0b026 HTTP/1.1" 201 16895 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:10:49:05 +0000] "POST /api/v1/message/ HTTP/1.1" 201 325 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:10:50:24 +0000] "POST /api/v1/message/ HTTP/1.1" 201 325 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:10:50:35 +0000] "POST /api/v1/message/ HTTP/1.1" 201 325 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:10:50:44 +0000] "GET /api/v1/message/6443888c6157267240a0b026 HTTP/1.1" 201 18503 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:10:51:16 +0000] "POST /api/v1/message/ HTTP/1.1" 201 325 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:10:51:26 +0000] "GET /api/v1/message/6443888c6157267240a0b026 HTTP/1.1" 201 19099 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:10:52:52 +0000] "POST /api/v1/message HTTP/1.1" 201 267 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:10:53:13 +0000] "GET /api/v1/message/6443888c6157267240a0b026 HTTP/1.1" 201 19694 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:10:54:53 +0000] "POST /api/v1/message HTTP/1.1" 201 909 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:10:55:35 +0000] "GET /api/v1/message/6443888c6157267240a0b026 HTTP/1.1" 201 20289 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:11:00:51 +0000] "POST /api/v1/message HTTP/1.1" 201 909 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:11:01:41 +0000] "POST /api/v1/message HTTP/1.1" 201 909 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:11:02:09 +0000] "GET /api/v1/message/6443888c6157267240a0b026 HTTP/1.1" 201 21479 "-" "PostmanRuntime/7.32.2"
+

@@ -1,7 +1,6 @@
 import User from '../models/user.model';
 const bcrypt = require('bcrypt');
 import Chat from "../models/chat.model";
-import HttpStatus from 'http-status-codes';
 
 //@description     Create or fetch One to One Chat
 //@route           POST /api/chat/
@@ -140,11 +139,21 @@ export const renameGroupChat = async (req) => {
 // @route   PUT /api/chat/groupadd
 // @access  Protected
 export const addToGroup = async (req) => {
+  
   const { chatId, userId } = req.body;
+  
+  var data = Chat.findById(chatId, (err, chat) => {
+    
+    if (chat.users.includes(userId)) {
+    console.log(`User with id ${userId} is already in chat with id ${chatId}`);
+    return;
+  }
 
+
+else{
   // check if the requester is admin 
 
-  const addedToGroup = await Chat.findByIdAndUpdate(
+  const addedToGroup = Chat.findByIdAndUpdate(
     chatId,
     {
       $push: { users: userId },
@@ -161,7 +170,12 @@ export const addToGroup = async (req) => {
   } else {
    return addedToGroup;
   }
-};
+}
+})
+return data
+}
+
+
 
 // @desc    Remove user from Group
 // @route   PUT /api/chat/groupremove
