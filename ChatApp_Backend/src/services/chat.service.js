@@ -10,8 +10,7 @@ export const accessChat = async (req, res) => {
     console.log("sender ", req.body.user," receiver", req.body.userId)
   
     if (!userId) {
-      console.log("UserId param not sent with request");
-      return res.sendStatus(400);
+      throw new Error("UserId param not sent with request");   
     }
   
     var isChat = await Chat.find({
