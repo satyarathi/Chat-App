@@ -1,0 +1,983 @@
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T10:25:02.700Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T10:25:02.725Z"}
+error: 
+    status - 500 
+    message - Error: Not authorized, token failed
+    at protect (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/protect.middleware.js:22:13)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1//chat 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-23T10:43:23.745Z"}
+error: 
+    status - 500 
+    message - Error: Not authorized, token failed
+    at protect (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/protect.middleware.js:22:13)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1//chat 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-23T10:43:29.699Z"}
+error: 
+    status - 500 
+    message - Error: Not authorized, token failed
+    at protect (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/protect.middleware.js:22:13)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1//chat 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-23T10:43:29.706Z"}
+error: 
+    status - 500 
+    message - Error: Not authorized, token failed
+    at protect (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/protect.middleware.js:22:13)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1//chat 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-23T10:43:38.407Z"}
+error: 
+    status - 500 
+    message - Error: Not authorized, token failed
+    at protect (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/protect.middleware.js:22:13)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1//chat 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-23T10:43:38.416Z"}
+error: 
+    status - 500 
+    message - Error: Not authorized, token failed
+    at protect (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/protect.middleware.js:22:13)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1//chat 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-23T10:46:50.189Z"}
+error: 
+    status - 500 
+    message - Error: Not authorized, token failed
+    at protect (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/protect.middleware.js:22:13)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1//chat 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-23T10:46:50.197Z"}
+error: 
+    status - 500 
+    message - Error: Not authorized, token failed
+    at protect (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/protect.middleware.js:22:13)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1//chat/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-23T10:55:44.553Z"}
+error: 
+    status - 500 
+    message - Error: Not authorized, token failed
+    at protect (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/protect.middleware.js:22:13)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1//chat/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-23T10:55:44.560Z"}
+error: 
+    status - 500 
+    message - Error: Not authorized, token failed
+    at protect (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/protect.middleware.js:22:13)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/chat/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-23T10:56:08.355Z"}
+error: 
+    status - 500 
+    message - Error: Not authorized, token failed
+    at protect (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/protect.middleware.js:22:13)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/chat/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-23T10:56:14.323Z"}
+error: 
+    status - 500 
+    message - Error: Not authorized, token failed
+    at protect (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/protect.middleware.js:22:13)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/chat/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-23T10:56:14.330Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T11:25:05.025Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T11:25:05.084Z"}
+error: 
+    status - 500 
+    message - Error: Not authorized, token failed
+    at protect (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/protect.middleware.js:22:13)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3) 
+    url - /api/v1/chat/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-23T11:25:21.904Z"}
+error: 
+    status - 500 
+    message - Error: Not authorized, token failed
+    at protect (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/protect.middleware.js:22:13)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3) 
+    url - /api/v1/chat/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-23T11:25:21.921Z"}
+error: 
+    status - 500 
+    message - Error: Not authorized, token failed
+    at protect (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/protect.middleware.js:22:13)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3) 
+    url - /api/v1/chat/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-23T11:25:23.151Z"}
+error: 
+    status - 500 
+    message - Error: Not authorized, token failed
+    at protect (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/protect.middleware.js:22:13)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3) 
+    url - /api/v1/chat/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-23T11:25:23.166Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T11:41:16.247Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T11:41:16.271Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/auth.middleware.js:23:30)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/chat/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-23T11:41:53.417Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/auth.middleware.js:23:30)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/chat/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-23T11:41:53.431Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T11:45:56.263Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T11:45:56.294Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Email
+    at _callee3$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/user.service.js:57:11)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-23T12:23:18.784Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T12:41:22.729Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T12:41:22.755Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T12:41:33.690Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T12:41:33.718Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T12:41:54.804Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T12:41:54.821Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T12:45:44.882Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T12:45:44.903Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T12:47:03.840Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T12:47:03.858Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T12:47:46.338Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T12:47:46.363Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'sendStatus')
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/chat.service.js:14:18)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.accessChat (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/chat.service.js:8:24)
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\controllers\/chat.controller.js:13:36)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at accessChat (D:\Chat-bot\Chat-App\ChatApp_Backend\src\controllers\/chat.controller.js:11:24)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at protect (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/protect.middleware.js:19:7)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/chat 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-23T12:47:49.091Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T12:49:36.048Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T12:49:36.065Z"}
+error: 
+    status - 500 
+    message - Error: UserId param not sent with request
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/chat.service.js:13:13)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.accessChat (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/chat.service.js:8:24)
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\controllers\/chat.controller.js:13:36)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at accessChat (D:\Chat-bot\Chat-App\ChatApp_Backend\src\controllers\/chat.controller.js:11:24)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at protect (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/protect.middleware.js:19:7)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/chat 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-23T12:49:38.450Z"}
+error: 
+    status - 500 
+    message - Error: UserId param not sent with request
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/chat.service.js:13:13)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.accessChat (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/chat.service.js:8:24)
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\controllers\/chat.controller.js:13:36)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at accessChat (D:\Chat-bot\Chat-App\ChatApp_Backend\src\controllers\/chat.controller.js:11:24)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at protect (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/protect.middleware.js:19:7)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/chat 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-23T12:49:46.092Z"}
+error: 
+    status - 500 
+    message - Error: UserId param not sent with request
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/chat.service.js:13:13)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.accessChat (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/chat.service.js:8:24)
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\controllers\/chat.controller.js:13:36)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at accessChat (D:\Chat-bot\Chat-App\ChatApp_Backend\src\controllers\/chat.controller.js:11:24)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at protect (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/protect.middleware.js:19:7)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/chat 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-23T12:49:47.589Z"}
+error: 
+    status - 500 
+    message - Error: UserId param not sent with request
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/chat.service.js:13:13)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.accessChat (D:\Chat-bot\Chat-App\ChatApp_Backend\src\services\/chat.service.js:8:24)
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\controllers\/chat.controller.js:13:36)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at accessChat (D:\Chat-bot\Chat-App\ChatApp_Backend\src\controllers\/chat.controller.js:11:24)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at protect (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/protect.middleware.js:19:7)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/chat 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-23T12:50:36.818Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T12:53:26.406Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T12:53:26.430Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T12:55:57.257Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T12:55:57.284Z"}
+error: 
+    status - 500 
+    message - ReferenceError: user is not defined
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/auth.middleware.js:24:23)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/chat 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-23T12:56:03.865Z"}
+error: 
+    status - 500 
+    message - ReferenceError: user is not defined
+    at _callee$ (D:\Chat-bot\Chat-App\ChatApp_Backend\src\middlewares\/auth.middleware.js:24:23)
+    at tryCatch (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Chat-bot\Chat-App\ChatApp_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/chat 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-23T12:56:06.445Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T12:56:39.327Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T12:56:39.350Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T13:03:18.136Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T13:03:18.165Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T13:06:40.837Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T13:06:40.857Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T13:07:07.200Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T13:07:07.228Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T13:17:40.008Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T13:17:40.038Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T13:18:04.545Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T13:18:04.570Z"}

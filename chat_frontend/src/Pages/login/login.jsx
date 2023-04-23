@@ -71,7 +71,9 @@ function Login(props) {
                   "response------------------------------------------>",
                   response
                 );
-                localStorage.setItem("token", response.data.data.token);
+                localStorage.setItem("token", response.data.data);
+
+                console.log("token", response.data.data);
                
               }
             

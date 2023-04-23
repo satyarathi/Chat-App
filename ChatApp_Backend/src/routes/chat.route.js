@@ -6,10 +6,10 @@ import { protect } from '../middlewares/protect.middleware';
 const router = express.Router();
 
 //route to access chat
-router.post('/', protect, chatController.accessChat);
+router.post('/', userAuth, chatController.accessChat);
 
 //route to fetch chat
-router.get('/', protect, chatController.fetchChat);
+router.get('/', userAuth, chatController.fetchChat);
 
 //route to create group chat
 router.post('/group', protect, chatController.createGroupChat);

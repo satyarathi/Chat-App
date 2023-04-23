@@ -6,9 +6,9 @@ import { protect } from '../middlewares/protect.middleware';
 const router = express.Router();
 
 //route to send chat
-router.post('/', protect, messageController.sendMessage);
+router.post('/', userAuth, messageController.sendMessage);
 
 // route to fetch chat
-router.get('/:chatId', protect, messageController.allMessages);
+router.get('/:chatId', userAuth, messageController.allMessages);
 
 export default router;

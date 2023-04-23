@@ -38,12 +38,17 @@ function SideDrawer(props) {
             <div style={{marginRight:"30px", marginTop:"10px"}}>
             <Avatar  />
             </div>
-            <Drawer
+            <Drawer style={{display:"flex" }}
             anchor={anchor}
             open={state[anchor]}
             onClose={toggleDrawer(anchor, false)}
           >
-           Hello
+            
+          <b style={{margin:"25px 50px 0px", color:"darkmagenta", fontFamily:"cursive"}}> Search User</b>
+          <Box display={'flex'} paddingBottom={2}>
+           <Input placeholder='Search by name' style={{margin:"20px 20px 20px"}} />
+           <Button style={{ backgroundColor:"lightgray", height:"30px", margin:"18px 10px 10px -10px"}}>GO</Button>
+           </Box>
           </Drawer>
         </Box>
         </React.Fragment>
